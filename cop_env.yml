@@ -1,0 +1,69 @@
+name: cop_mar_env
+
+channels:
+  - conda-forge
+  - coecms
+  
+dependencies:
+  # Core Runtime
+  - python=3.13.11
+  - pip
+  - ipykernel
+  
+  # Export Tools (LaTeX PDF Generation)
+  - nbconvert
+  - pandoc
+  - texlive-core
+  
+  # Heavy Geospatial/Math
+  - numpy=2.3.5
+  - pandas
+  - geopandas
+  - xarray
+  - dask=2026.1.1
+  - distributed=2026.1.1
+  - netcdf4
+  - rasterio
+  - rio-cogeo
+  - pyogrio
+  
+  # Data Science & Visualization
+  - matplotlib-base
+  - duckdb
+  - pyarrow
+  - shapely
+  - psutil
+  - graphviz
+  - python-graphviz
+  - leafmap
+  - localtileserver
+  - cartopy
+  
+  # Cloud & Remote Sensing
+  - pystac
+  - pystac-client
+  - planetary-computer
+  - stackstac
+  - rioxarray
+  - zarr
+  - fsspec
+  - s3fs
+  - adlfs
+  - boto3
+  - copc-lib
+  - laspy
+  
+  # JupyterHub Compatibility
+  - jupyterhub-singleuser
+  - jupyterlab
+  - dask-labextension
+
+  # For this exercise
+  - copernicusmarine
+  - xmhw
+  - nbconvert
+  - nbconvert-webpdf
+  - playwright
+
+  - pip :
+    - geoenrich
