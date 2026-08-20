@@ -22,6 +22,7 @@ To run the notebooks without dependency conflicts (ensuring compatible versions 
 ```bash
 conda env create -f cop_env.yml
 conda activate cop_mar_env
+```
 
 <hr>
 &copy; 2026 thriveGEO GmbH
